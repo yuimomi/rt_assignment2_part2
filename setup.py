@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'move_robot = robot_controller.move_robot:main'
         ],
     },
 )
